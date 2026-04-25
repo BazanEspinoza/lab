@@ -1,6 +1,6 @@
 //BazanEspinoza
 package simupato;
-
+    
 /**
  *
  * @author sistemas
