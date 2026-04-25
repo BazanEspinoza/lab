@@ -8,11 +8,10 @@ package simupato;
  *
  * @author sistemas
  */
-public abstract class Pato {
-     public void nadar() {
-         System.out.println("TODOS LOS PATOS NADAN");
-}
-     
- public abstract void mostrar();
- 
+public class PatoSenuelo extends Pato {
+
+    @Override
+    public void mostrar() {
+    }
+    
 }

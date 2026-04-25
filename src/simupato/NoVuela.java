@@ -8,6 +8,9 @@ package simupato;
  *
  * @author sistemas
  */
-public class NoVuela {
-    
+public class NoVuela implements Volable {
+
+    @Override
+    public void volar() {
+    }
 }
