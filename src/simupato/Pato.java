@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//BazanEspinoza
 package simupato;
 
 /**
@@ -9,10 +6,32 @@ package simupato;
  * @author sistemas
  */
 public abstract class Pato {
+    Volable volable;
+    Cuaqueable cuaqueable;
+    
+    public Pato() {
+        
+    }
+    
+    //Metodos
+    public void setVolable(Volable fb) {
+        this.volable = fb;
+    }
+    
+    public void setCuaqueable(Cuaqueable qb) {
+        this.cuaqueable = qb;
+    }
+    
+    public void realizarVuelo() {
+        volable.volar();
+    }
+    
+    public void realizarCuaqueo() {
+        cuaqueable.cuaquear();
+    }
      public void nadar() {
          System.out.println("TODOS LOS PATOS NADAN");
-}
-     
- public abstract void mostrar();
+    }
+     public abstract void mostrar();
  
 }
