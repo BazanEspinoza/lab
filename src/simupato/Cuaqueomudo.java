@@ -10,5 +10,4 @@ public class Cuaqueomudo implements Cuaqueable {
     @Override
     public void cuaquear() {
     }
-    
 }
