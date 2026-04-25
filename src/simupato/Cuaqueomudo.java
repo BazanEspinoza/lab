@@ -1,4 +1,4 @@
-//BazanEspinoza
+//
 package simupato;
 
 /**
@@ -9,5 +9,7 @@ public class Cuaqueomudo implements Cuaqueable {
 
     @Override
     public void cuaquear() {
+        System.out.println("<<Silencio>>");
     }
 }
+   

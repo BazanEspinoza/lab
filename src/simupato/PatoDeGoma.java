@@ -7,9 +7,13 @@ package simupato;
  */
 public class PatoDeGoma extends Pato implements Cuaqueable, Volable {
 
+    public PatoDeGoma() {
+        volable = new NoVuela();
+        cuaqueable = new Chirreo();
+    }
     @Override
     public void mostrar() {
-        
+        System.out.println("Yo soy un patito de goma");
     }
 
     @Override
